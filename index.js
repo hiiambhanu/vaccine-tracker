@@ -56,5 +56,6 @@ async function checkForSlots(){
     }
 }
 
+checkForSlots();
 
 setInterval(checkForSlots, 900000)
